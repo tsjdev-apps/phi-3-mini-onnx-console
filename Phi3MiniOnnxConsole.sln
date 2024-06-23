@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phi3MiniOnnxConsole", "src\Phi3MiniOnnxConsole\Phi3MiniOnnxConsole.csproj", "{E00F78DB-A86B-4E38-A9F1-6FA2AD5C07D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E00F78DB-A86B-4E38-A9F1-6FA2AD5C07D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E00F78DB-A86B-4E38-A9F1-6FA2AD5C07D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E00F78DB-A86B-4E38-A9F1-6FA2AD5C07D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E00F78DB-A86B-4E38-A9F1-6FA2AD5C07D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22F987E1-1951-4A11-AAB4-98D5B37D94AF}
+	EndGlobalSection
+EndGlobal
