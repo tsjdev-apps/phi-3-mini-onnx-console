@@ -55,7 +55,7 @@ while (true)
         generator.GenerateNextToken();
 
         string output = tokenizer.Decode(generator.GetSequence(0)[^1..]);
-        Console.Write(output);
+        ConsoleHelper.WriteToConsole(output);
     }
 
     ConsoleHelper.WriteToConsole(Environment.NewLine);
