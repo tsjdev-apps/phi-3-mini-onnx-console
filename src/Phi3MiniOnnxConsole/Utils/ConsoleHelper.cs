@@ -45,35 +45,6 @@ internal static class ConsoleHelper
     }
 
     /// <summary>
-    ///     Displays a prompt with the provided message and returns the user input.
-    /// </summary>
-    /// <param name="prompt">The prompt message.</param>
-    /// <returns>The user input.</returns>
-    public static string GetString(string prompt)
-    {
-        ShowHeader();
-
-        return AnsiConsole.Prompt(
-            new TextPrompt<string>(prompt)
-            .PromptStyle("white")
-            .ValidationErrorMessage("[red]Invalid prompt[/]")
-            .Validate(prompt =>
-            {
-                if (prompt.Length < 3)
-                {
-                    return ValidationResult.Error("[red]Value too short[/]");
-                }
-
-                if (prompt.Length > 200)
-                {
-                    return ValidationResult.Error("[red]Value too long[/]");
-                }
-
-                return ValidationResult.Success();
-            }));
-    }
-
-    /// <summary>
     ///     Writes the specified text to the console.
     /// </summary>
     /// <param name="text">The text to write.</param>
