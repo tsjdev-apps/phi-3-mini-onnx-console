@@ -31,3 +31,9 @@ First, you need to specify the path to the model folder.
 Now, you can start chatting with your local Small Language Model.
 
 ![Console](./docs/console-02.png)
+
+## Blog Post
+
+If you are more interested into details, please see the following post on [medium.com](https://www.medium.com):
+
+- [Using Phi-3 Mini with ONNX as local Small Language Model](https://medium.com/medialesson/using-phi-3-mini-with-onnx-as-local-small-language-model-2466f559af73)
